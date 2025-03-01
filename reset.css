@@ -1,0 +1,27 @@
+
+:root{
+    --cor-amarelo:#ffde59;
+    --cor-amarelo-hover:#B8860B;
+    --cor-preto: #000000;
+    --cor-cinza1:#cdced1;
+    --cor-cinza2:#cfcdcd;
+    --cor-branco:#fff;
+    --cinza-hover:#a5a5a5;
+    --botao-igual:#0000FF;
+    --botao-igual-hover:#191970;
+    --botao-ce:#B22222;
+    --botaco-ce:hover:#8B0000;
+
+
+}
+
+body{
+display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+min-height: 100vh;
+background-image: url(/src/star-wars-backgroud.jpg );
+color: #fff;
+
+}

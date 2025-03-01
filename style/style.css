@@ -1,0 +1,79 @@
+@import url(/reset.css);
+
+  .container {
+    margin-left: 1.8em;
+    padding: 25px;
+    border-radius: 8px;
+    border-style:groove;
+    border-color: var(--cor-amarelo);
+  }
+
+.logo{
+    width: 100vh;
+    height: auto;
+    align-items: center;
+}
+  .row button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: 0.1s;
+    background-color: var(--cor-preto);
+    box-shadow: inset 2px 2px 5px var(--cor-cinza1), inset -2px -2px 5px var(--cor-cinza2);
+    color: var(--cor-branco);
+  }
+  
+  
+  button:hover {
+    background: var(--cinza-hover);
+
+  }
+  
+  .display #screen {
+    margin-bottom: 0.5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0.5em;
+    background: var(--cor-branco);
+    border-color:var(--cor-amarelo);
+    border-radius: 6px;
+  }
+  
+  #eval {
+    background: var(--botao-igual);
+    color: var(--cor-branco);
+    box-shadow: none;
+  }
+  
+  #eval:hover {
+    background: var(--botao-igual-hover);
+  }
+  
+  #ac {
+    background: var( --botao-ce);
+    box-shadow: none;
+    color:var(--cor-branco);
+  }
+  
+  #ac:hover {
+    background-color: var( --botao-ce-hover);
+  }
+  
+  #ce {
+    background-color: var(--cor-amarelo);
+    color: var(--cor-preto);
+    box-shadow: none;
+  }
+  
+  #ce:hover {
+    background-color: var(--cor-amarelo-hover);
+  }
+  
